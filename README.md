@@ -1,11 +1,11 @@
 # django-la-ganalytics
 Django app to add google-analytics code to your template
 
-- Copy ganalytics APP folder to your project;
+- Copy `ganalytics` APP folder to your project;
 
-- Add ganalytics into INSTALLED_APPS;
+- Add ganalytics into `INSTALLED_APPS`;
 
-- Create GOOGLE_ANALYTICS_CODE attribute in settings and set the value
+- Create `GOOGLE_ANALYTICS_CODE` attribute in settings and set the value
 
 - Call the templatetags into your template: `{% load google_analytics %}`
 
