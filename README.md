@@ -10,6 +10,7 @@ Django app to add google-analytics code to your template
 - Call the templatetags into your template: `{% load google_analytics %}`
 
 - Finally, add the code of analytics `{% google_analytics %}` into script. Ex.:
+    ``` javascript
     (function(i, s, o, g, r, a, m) {
     	i['GoogleAnalyticsObject'] = r;
     	i[r] = i[r] ||
@@ -24,3 +25,4 @@ Django app to add google-analytics code to your template
 
     ga('create', '{% google_analytics %}', 'auto');
     ga('send', 'pageview');
+    ```
